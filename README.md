@@ -46,26 +46,6 @@ Detectify analyzes an APK through a sequence of critical and non-critical securi
 -   **Backend**: Python, Flask, **Androguard**
 -   **Frontend**: HTML, CSS, JavaScript
 
----
-
-## 📂 Project Structure
-
-
-/Final Prototype/
-├── app.py                  # Flask backend server
-├── check.py                # Core analysis logic with Androguard
-├── trusted_apps.json       # Database of trusted apps
-├── known_fraud.json        # Database of known fraudulent APK hashes
-├── requirements.txt        # Python package requirements
-├── templates/
-│   └── index.html          # Main HTML file for the UI
-└── static/
-├── style.css           # CSS for styling the UI
-└── script.js           # JavaScript for the frontend
-
-
----
-
 ## 🏁 Getting Started
 
 ### Prerequisites
